@@ -203,8 +203,13 @@ int main(void)
 	  //Leer RX
 	  if (HAL_FDCAN_GetRxMessage(&hfdcan2, FDCAN_RX_FIFO0, &RxHeader, RxData) != HAL_OK) Error_Handler();
 
-	  uint16_t received;
-	  received = (RxData[0] << 8) | RxData[1];
+	  uint16_t received_raw;
+	  uint16_t received_raw2;
+	  uint16_t received_brake;
+
+	  received_raw  = (RxData[0] << 8) | RxData[1];
+	  received_raw2 = (RxData[2] << 8) | RxData[3];
+	  received_brake = (RxData[4] << 8) | RxData[5];
 
 	  //SENSORES SECUNDARIOS (cada 20 ciclos)
 	  if (++slow_counter >= 20)
