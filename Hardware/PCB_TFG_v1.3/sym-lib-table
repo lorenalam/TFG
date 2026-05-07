@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCP1755ST")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MCP1755ST/2024-01-03_19-19-26.kicad_sym")(options "")(descr ""))
+  (lib (name "TE-connector 23")(type "KiCad")(uri "${KIPRJMOD}/Libraries/770669_1/770669-1.kicad_sym")(options "")(descr ""))
+  (lib (name "SW mini")(type "KiCad")(uri "${KIPRJMOD}/Libraries/1571563-6_SWITCH/2025-08-16_14-59-44.kicad_sym")(options "")(descr ""))
+)
