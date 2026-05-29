@@ -3597,6 +3597,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper_2_Open_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCP1755:MCP1755ST-3302E_DB"
 			(pin_names
 				(offset 0.254)
@@ -4353,156 +4519,6 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switch:SW_SPST"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_SPST"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_SPST_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_SPST_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6167,7 +6183,7 @@
 	(text_box "CONECTOR 90º\n"
 		(exclude_from_sim no)
 		(at 271.78 140.97 0)
-		(size 80.01 53.34)
+		(size -80.01 53.34)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -6285,6 +6301,12 @@
 		(uuid "ecd90e33-2f98-4f14-b9ef-93fa46e38f34")
 	)
 	(junction
+		(at 121.92 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08350bb1-4891-4e28-8b4b-5662f58ef316")
+	)
+	(junction
 		(at 252.73 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6295,12 +6317,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "135cc850-ec8c-46e5-8dee-3ba41a68aef9")
-	)
-	(junction
-		(at 127 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "153c4c2a-b07e-4269-af03-35aba3742992")
 	)
 	(junction
 		(at 193.04 71.12)
@@ -6333,6 +6349,12 @@
 		(uuid "4accd338-6cc0-422c-8642-9eb25bb42463")
 	)
 	(junction
+		(at 111.76 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cc9a2eb-09cb-4d06-82eb-cba24451f024")
+	)
+	(junction
 		(at 43.18 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6343,6 +6365,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "805a2e37-1c08-4be3-9134-0d82e16e00c2")
+	)
+	(junction
+		(at 127 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8912795d-ac2c-4c59-bf08-1700d1ef291f")
 	)
 	(junction
 		(at 180.34 71.12)
@@ -6675,6 +6703,16 @@
 			(type default)
 		)
 		(uuid "27d11d7e-cb8f-4889-befa-2e09070b5bbd")
+	)
+	(wire
+		(pts
+			(xy 336.55 170.18) (xy 336.55 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28284da5-3d0e-4f98-90ac-1d221aa2eb92")
 	)
 	(wire
 		(pts
@@ -7048,6 +7086,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 170.18) (xy 313.69 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66579cc4-3408-4da2-a31c-ca16f9497ad4")
+	)
+	(wire
+		(pts
 			(xy 190.5 35.56) (xy 195.58 35.56)
 		)
 		(stroke
@@ -7118,6 +7166,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 81.28) (xy 130.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "780ffe67-97e4-41f2-b073-d3959e2772d8")
+	)
+	(wire
+		(pts
 			(xy 242.57 172.72) (xy 246.38 172.72)
 		)
 		(stroke
@@ -7135,6 +7193,16 @@
 			(type default)
 		)
 		(uuid "7b35281f-05d3-4e2f-9d2d-be72b4c02aca")
+	)
+	(wire
+		(pts
+			(xy 111.76 83.82) (xy 113.03 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2c4151-f598-4196-afc8-cae6607fbf08")
 	)
 	(wire
 		(pts
@@ -7578,16 +7646,6 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 161.29) (xy 336.55 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd318b4a-b639-4a04-b0a1-c918f036116b")
-	)
-	(wire
-		(pts
 			(xy 59.69 162.56) (xy 67.31 162.56)
 		)
 		(stroke
@@ -7748,16 +7806,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 170.18) (xy 293.37 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e88b792d-5222-485a-a240-cf526b14417a")
-	)
-	(wire
-		(pts
 			(xy 177.8 172.72) (xy 194.31 172.72)
 		)
 		(stroke
@@ -7838,7 +7886,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 161.29) (xy 339.09 175.26)
+			(xy 339.09 170.18) (xy 339.09 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9715,7 +9763,7 @@
 	)
 	(global_label "TEMPS_BRK_CS"
 		(shape input)
-		(at 316.23 170.18 90)
+		(at 318.77 170.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9725,7 +9773,7 @@
 		)
 		(uuid "21a9a0d8-fdc4-4d89-be90-d94b5b52ef2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 316.23 152.9226 90)
+			(at 318.77 152.9226 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9763,7 +9811,7 @@
 	)
 	(global_label "TEMP_TYRE_1_SCL"
 		(shape input)
-		(at 300.99 170.18 90)
+		(at 336.55 170.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9773,7 +9821,7 @@
 		)
 		(uuid "2a1e9165-2661-4e19-981f-2712de3155c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 300.99 150.2617 90)
+			(at 336.55 150.2617 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9835,7 +9883,7 @@
 	)
 	(global_label "CANL1"
 		(shape input)
-		(at 336.55 161.29 90)
+		(at 300.99 170.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9845,7 +9893,7 @@
 		)
 		(uuid "2c71d152-bdb7-418e-b54d-5be7a8565a8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 336.55 152.3781 90)
+			(at 300.99 161.2681 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9859,7 +9907,7 @@
 	)
 	(global_label "TEMPS_BRK_SCK"
 		(shape input)
-		(at 318.77 170.18 90)
+		(at 298.45 170.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9869,7 +9917,7 @@
 		)
 		(uuid "344a0e1f-e6b6-49e9-824f-1943d4770e00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.77 151.6526 90)
+			(at 298.45 151.6526 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9894,6 +9942,30 @@
 		(uuid "3668b7d2-884c-4aeb-a691-a326ec54e3af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.11 150.5639 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VCAP"
+		(shape input)
+		(at 130.81 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38057818-0b2e-4055-be6c-4ff1308586c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 138.5124 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10051,7 +10123,7 @@
 	)
 	(global_label "TEMP_TYRE_1_SDA"
 		(shape input)
-		(at 321.31 170.18 90)
+		(at 339.09 170.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10061,7 +10133,7 @@
 		)
 		(uuid "4c96271a-28b2-48a1-b05c-4af3fdc76443")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 321.31 150.2012 90)
+			(at 339.09 150.2012 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10219,7 +10291,7 @@
 	)
 	(global_label "TEMP_TYRE_2_SDA"
 		(shape input)
-		(at 334.01 170.18 90)
+		(at 313.69 170.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10229,7 +10301,7 @@
 		)
 		(uuid "61837933-55fc-45a2-86cd-425648e71dfe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.01 150.2012 90)
+			(at 313.69 150.2012 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10315,7 +10387,7 @@
 	)
 	(global_label "TEMPS_BRK_MISO"
 		(shape input)
-		(at 293.37 170.18 90)
+		(at 316.23 170.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10325,7 +10397,7 @@
 		)
 		(uuid "71faec53-9a41-4788-bc3b-42b1a77670c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 293.37 150.8059 90)
+			(at 316.23 150.8059 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10409,6 +10481,30 @@
 			)
 		)
 	)
+	(global_label "VCAP"
+		(shape input)
+		(at 113.03 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "836b5c3d-28d4-4906-963c-42dbca46ff37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.7324 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "TEMPS_BRK_CS"
 		(shape input)
 		(at 45.72 43.18 180)
@@ -10435,7 +10531,7 @@
 	)
 	(global_label "CANH1"
 		(shape input)
-		(at 339.09 161.29 90)
+		(at 321.31 170.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10445,7 +10541,7 @@
 		)
 		(uuid "86a97ed4-0e7d-408c-b030-f069cf47066d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 339.09 152.0757 90)
+			(at 321.31 160.9657 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11035,7 +11131,7 @@
 	)
 	(global_label "TEMP_TYRE_2_SCL"
 		(shape input)
-		(at 295.91 170.18 90)
+		(at 334.01 170.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11045,7 +11141,7 @@
 		)
 		(uuid "d26a6843-945d-459b-9d16-af4524a9014f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 295.91 150.2617 90)
+			(at 334.01 150.2617 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11155,7 +11251,7 @@
 	)
 	(global_label "TEMPS_BRK_MOSI"
 		(shape input)
-		(at 298.45 170.18 90)
+		(at 295.91 170.18 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11165,7 +11261,7 @@
 		)
 		(uuid "e02a54c1-784c-4bad-a30f-ac4d242776ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.45 150.8059 90)
+			(at 295.91 150.8059 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11749,6 +11845,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 180.34 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "175b1fdc-cb2e-4cbd-b527-174269d22e61")
+		(property "Reference" "#PWR050"
+			(at 180.34 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 180.34 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 180.34 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b1059c3-4dc1-495e-8bf9-9180fff81cb1")
+		)
+		(instances
+			(project "PCB_TFG_v1.3"
+				(path "/b18b3181-d82f-4fc4-8418-a6d689a6fb6d"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 128.27 175.26 0)
@@ -12066,6 +12240,84 @@
 			(project "PCB_TFG_v1.3"
 				(path "/b18b3181-d82f-4fc4-8418-a6d689a6fb6d"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 193.04 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22a0a054-c2ff-4651-ad39-42a3bd2a264b")
+		(property "Reference" "#PWR051"
+			(at 193.04 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 193.04 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 193.04 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bda840c-38a5-40af-b18e-4c242a767f6d")
+		)
+		(instances
+			(project "PCB_TFG_v1.3"
+				(path "/b18b3181-d82f-4fc4-8418-a6d689a6fb6d"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -12790,84 +13042,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39203c28-356f-4153-b0ab-1b890d2b499e")
-		(property "Reference" "#PWR013"
-			(at 193.04 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 193.04 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "265c6e3c-e221-44ba-a2d5-b7746424a4e3")
-		)
-		(instances
-			(project "PCB_TFG_v1.3"
-				(path "/b18b3181-d82f-4fc4-8418-a6d689a6fb6d"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 46.99 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -13299,7 +13473,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P-B"
 			(at 267.97 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -13342,84 +13516,6 @@
 			(project "PCB_TFG_v1.3"
 				(path "/b18b3181-d82f-4fc4-8418-a6d689a6fb6d"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 360.68 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4c1b4471-85cb-44c9-84b5-4a555afd6f2c")
-		(property "Reference" "#PWR026"
-			(at 360.68 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 360.68 112.268 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 360.68 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 360.68 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 360.68 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b4faed61-6146-4264-af0d-390719c4fa3e")
-		)
-		(instances
-			(project "PCB_TFG_v1.3"
-				(path "/b18b3181-d82f-4fc4-8418-a6d689a6fb6d"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -13851,8 +13947,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "68647675-aba9-4c48-9dae-983ede5f2114")
-		(property "Reference" "U$1"
-			(at 179.07 32.258 0)
+		(property "Reference" "F1"
+			(at 181.102 33.274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13915,7 +14011,7 @@
 		(instances
 			(project "PCB_TFG_v1.3"
 				(path "/b18b3181-d82f-4fc4-8418-a6d689a6fb6d"
-					(reference "U$1")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -16567,84 +16663,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 180.34 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b17e8cf8-afad-4ece-b13c-5942fc59c9dc")
-		(property "Reference" "#PWR012"
-			(at 180.34 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 180.34 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81d3520e-2d62-4325-85fc-5b8af7e4a14e")
-		)
-		(instances
-			(project "PCB_TFG_v1.3"
-				(path "/b18b3181-d82f-4fc4-8418-a6d689a6fb6d"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 167.64 213.36 0)
 		(unit 1)
@@ -16760,7 +16778,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 140.0048 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -16968,8 +16986,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 273.05 208.28 0)
+		(lib_name "Jumper_2_Open_1")
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 127 68.58 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16978,9 +16997,91 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "c1a09fd7-7c02-4f04-9f61-2c35711ee815")
+		(property "Reference" "JP2"
+			(at 129.54 67.3099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper_2_Open"
+			(at 129.54 69.8499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 127 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 127 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c503a005-7b7d-42bd-ba49-ba5186b7b8b4")
+		)
+		(pin "1"
+			(uuid "50b37ca0-b21f-479c-adef-cac9ffcbd241")
+		)
+		(instances
+			(project "PCB_TFG_v1.3"
+				(path "/b18b3181-d82f-4fc4-8418-a6d689a6fb6d"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 273.05 208.28 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "c1aa4f20-60cc-45e2-a479-87a1e439f737")
 		(property "Reference" "R19"
-			(at 275.59 207.0099 0)
+			(at 270.51 207.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16991,7 +17092,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 275.59 209.5499 0)
+			(at 270.51 209.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17002,7 +17103,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 271.272 208.28 90)
+			(at 274.828 208.28 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18388,7 +18489,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_B3U-1000P-B"
 			(at 218.44 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -19225,86 +19326,6 @@
 			(project "PCB_TFG_v1.3"
 				(path "/b18b3181-d82f-4fc4-8418-a6d689a6fb6d"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 127 68.58 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f43c43a0-5504-4705-a4d5-22a5f413340f")
-		(property "Reference" "SW3"
-			(at 128.778 68.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 128.778 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 127 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7e67b36b-a74a-441c-9ff5-051ff00ca8a0")
-		)
-		(pin "2"
-			(uuid "b8dc500c-dc79-4fb8-a568-0481042c9d00")
-		)
-		(instances
-			(project "PCB_TFG_v1.3"
-				(path "/b18b3181-d82f-4fc4-8418-a6d689a6fb6d"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
