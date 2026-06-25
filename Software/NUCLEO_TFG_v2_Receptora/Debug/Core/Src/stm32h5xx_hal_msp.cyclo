@@ -1,0 +1,5 @@
+../Core/Src/stm32h5xx_hal_msp.c:63:6:HAL_MspInit	1
+../Core/Src/stm32h5xx_hal_msp.c:83:6:HAL_FDCAN_MspInit	3
+../Core/Src/stm32h5xx_hal_msp.c:131:6:HAL_FDCAN_MspDeInit	2
+../Core/Src/stm32h5xx_hal_msp.c:160:6:HAL_SPI_MspInit	3
+../Core/Src/stm32h5xx_hal_msp.c:225:6:HAL_SPI_MspDeInit	2
